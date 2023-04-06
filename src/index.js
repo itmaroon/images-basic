@@ -28,11 +28,11 @@ import './editor.scss';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
  */
-registerBlockType( 'itmar/images-basic', {
-	title: 'イメージ基本ブロック',
-  description: '複数イメージの基本となるブロックです',
-  category: 'widgets',
-  icon: 'format-gallery',
+registerBlockType( 'itmar/swiper-block', {
+	title: "Swiper Block",
+	category: "widgets",
+	icon: "images-alt",
+	description: "複数画像をSwiperで表示するブロックです。",
 	//属性を設定
   attributes: {
     //MediaUpload の value の値
